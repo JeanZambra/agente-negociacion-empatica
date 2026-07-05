@@ -1,0 +1,35 @@
+# Entornos y credenciales
+.env
+*.env
+.venv/
+venv/
+env/
+
+# Ollama (sesiones/credenciales locales, si se llegan a generar en el proyecto)
+.ollama/
+ollama_session*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Gradio
+gradio_cached_examples/
+flagged/
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs y datos locales de prueba
+*.log
+*.db
+*.sqlite3
